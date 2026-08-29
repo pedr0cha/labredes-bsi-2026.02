@@ -24,7 +24,7 @@ Compreender os conceitos fundamentais de virtualização (gerenciamento por Hype
   * **Processador:** 1 vCPU
   * **Disco Rígido Virtual:** 32 GB (Tipo VDI, Dinamicamente Alocado)
   * **Rede:** Adaptador em modo NAT (Interface `enp0s3`)
-
+<img width="440" height="676" alt="Captura de tela 2026-08-29 192033" src="https://github.com/user-attachments/assets/ca838156-e96c-43c3-925b-b7fe5210a83f" />
 ---
 
 ## 4. Procedimento Executado
@@ -43,6 +43,8 @@ Execução do comando para checagem das interfaces de rede do servidor:
 ```bash
 ip addr
 ```
+<img width="878" height="815" alt="Captura de tela 2026-08-29 184337" src="https://github.com/user-attachments/assets/acb4e534-39ba-4657-980e-e9c696e0cd68" />
+
 
 Evidência: A interface enp0s3 ativou corretamente o link e obteve o endereço IPv4 10.0.2.15/24 via DHCP por meio do modo de rede NAT do VirtualBox.
 
@@ -51,6 +53,8 @@ Execução do comando para análise do espaço de armazenamento alocado:
 ```bash
 df -h
 ```
+<img width="895" height="810" alt="Captura de tela 2026-08-29 184355" src="https://github.com/user-attachments/assets/deac7c73-2413-4b83-9de5-8874772b0744" />
+
 Evidência: A partição principal /dev/sda2 foi mapeada com sucesso e montada diretamente na raiz /, dispondo de uma capacidade total de 33 GB (com utilização otimizada de 3.1 GB e cerca de 28 GB livres).
 
 ### C. Atualização dos Repositórios (sudo apt-get update)
@@ -58,6 +62,9 @@ Validação do acesso externo e do gerenciador de pacotes do sistema:
 ```bash
 sudo apt-get update
 ```
+<img width="852" height="812" alt="Captura de tela 2026-08-29 184449" src="https://github.com/user-attachments/assets/9b332388-3906-4647-ad82-8ab971cdeb57" />
+
+
 Evidência: O utilitário apt realizou com sucesso a comunicação com os espelhos oficiais do Ubuntu (archive.ubuntu.com), efetuando a leitura das listas de pacotes de segurança e atualizações sem interrupções.
 
 
@@ -68,6 +75,8 @@ Evidência: O utilitário apt realizou com sucesso a comunicação com os espelh
 ### Ocorrência Técnica N1:
 
 Erro de compilação/instalação no estágio final (install_fail / curtin)
+<img width="1292" height="796" alt="Captura de tela 2026-08-29 182221" src="https://github.com/user-attachments/assets/b1f31ff9-4acd-47e3-bc40-329fced3ba43" />
+
 
 ### Causa Identificada N1:
 
