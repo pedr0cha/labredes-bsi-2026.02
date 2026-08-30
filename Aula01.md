@@ -2,8 +2,9 @@
 
 ## 1. Identificação
 * **Nome Completo:** Pedro Henrique Cavalcante Rocha
-* **Curso:** Bacharelado em Sistemas de Informação (BSI)
-* **Disciplina:** Redes de Computadores / Sistemas Operacionais
+* **Matricula:** 2023007730
+* * **Curso:** Bacharelado em Sistemas de Informação (BSI)
+* **Disciplina:** Laboratório de redes
 * **Data:** 29/08/2026
 * **Título da Prática:** Instalação e Configuração do Ubuntu Server 26.04 LTS no Oracle VM VirtualBox
 
