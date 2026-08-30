@@ -5,7 +5,7 @@
 * **Matricula:** 2023007730
 * * **Curso:** Bacharelado em Sistemas de Informação (BSI)
 * **Disciplina:** Laboratório de redes
-* **Data:** 29/08/2026
+* **Data:** 30/08/2026
 * **Título da Prática:** Instalação e Configuração do Ubuntu Server 26.04 LTS no Oracle VM VirtualBox
 
 ---
