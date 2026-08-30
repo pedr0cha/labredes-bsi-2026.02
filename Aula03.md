@@ -4,7 +4,9 @@
 * **Título da Prática:** Análise da Estrutura FHS, Isolamento Departamental e Uso do Login Shell
 * **Aluno:** Pedro Henrique Cavalcante Rocha
 * **Matrícula:** 2023007730
-* **Data de Realização:** 29 de Agosto de 2026
+* * **Curso:** Bacharelado em Sistemas de Informação (BSI)
+* **Disciplina:** Laboratório de redes
+* **Data de Realização:** 30 de Agosto de 2026
 
 ---
 
