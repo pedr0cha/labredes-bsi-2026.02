@@ -3,8 +3,10 @@
 ## 1. Identificação
 * **Título da Prática:** Prática de Gerenciamento de Usuários, Grupos e Permissões em Servidor Linux
 * **Aluno:** Pedro Henrique Cavalcante Rocha
-* **Matrícula:** 2023007730
-* **Turma:** Laboratório de redes 
+* * **Matricula:** 2023007730
+* * **Curso:** Bacharelado em Sistemas de Informação (BSI)
+* * **Disciplina:** Laboratório de redes
+ 
 
 
 ---
